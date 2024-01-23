@@ -49,14 +49,16 @@
         }
 
         function resetForm() {
-            document.getElementById("name").value = "Enter Name";
-            document.getElementById("gender").value = "Enter gender";
-            document.getElementById("email").value = "Enter emailId";
-            document.getElementById("mobile").value = "Enter Mobile number";
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("mobile").value = "";
             // Reset all the form elements to default values (blank "")
         }
 
         function resetDisplay() {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("mobile").value = "";
             document.getElementById("dName").innerText = " ";
             document.getElementById("dGender").innerText = " ";
             document.getElementById("dEmail").innerText = " ";
