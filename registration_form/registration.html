@@ -6,14 +6,14 @@
 </head>
 
 <body>
-    <input type="text" name="name" id="name" value="">
+    <input type="text" name="name" id="name" value="" placeholder="Enter Name">
     <select id="gender">
         <option value="">--</option>
         <option value="male">M</option>
         <option value="female">F</option>
     </select>
-    <input type="text" name="email" id="email">
-    <input type="text" name="mobile" id="mobile">
+    <input type="text" name="email" id="email" placeholder="Enter emailId">
+    <input type="text" name="mobile" id="mobile" placeholder="Enter mobile number">
     <hr>
     <h1 id="dName">NAME</h1>
     <h2 id="dGender">GENDER</h2>
@@ -49,10 +49,10 @@
         }
 
         function resetForm() {
-            document.getElementById("dName").innerText = "NAME";
-            document.getElementById("dGender").innerText = "GENDER";
-            document.getElementById("dEmail").innerText = "EMAIL";
-            document.getElementById("dMobile").innerText = "MOBILE";
+            document.getElementById("name").value = "Enter Name";
+            document.getElementById("gender").value = "Enter gender";
+            document.getElementById("email").value = "Enter emailId";
+            document.getElementById("mobile").value = "Enter Mobile number";
             // Reset all the form elements to default values (blank "")
         }
 
