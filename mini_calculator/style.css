@@ -1,0 +1,22 @@
+body {
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.input {
+    margin: 10px;
+}
+
+.input>input {
+    padding: 5px;
+}
+
+.mathoperations {
+    margin: 10px;
+}
+
+.mathoperations>button {
+    padding: 5px;
+}
